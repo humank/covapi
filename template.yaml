@@ -30,7 +30,7 @@ Resources:
         Covapi:
           Type: HttpApi
           Properties:
-            Path: /v1/{proxy+}
+            Path: /{proxy+}
             Method: ANY
     Metadata:
       DockerTag: java17.al2-maven-v1
